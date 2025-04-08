@@ -1,0 +1,139 @@
+---
+import TerminalLine from "../atoms/TerminalLine.astro";
+---
+
+<div class="terminal">
+  <TerminalLine
+    status="ok"
+    operation="Starting"
+    description="jourlanl service..."
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="ok"
+    operation="Mounting"
+    description="file system..."
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="ok"
+    operation="Loading"
+    description="system variables..."
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="ok"
+    operation="Loading"
+    description="kernel modules..."
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="ok"
+    operation="Starting"
+    description="firewall..."
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="ok"
+    operation="Extracting"
+    description="comm_array packet..."
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="ok"
+    operation="Installing"
+    description="comm_array packet..."
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="ok"
+    operation="Starting"
+    description="firewall..."
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="failed"
+    operation="Listening"
+    description="on port 8..."
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="failed"
+    operation="Listening"
+    description="on port 17..."
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="ok"
+    operation="Listening"
+    description="on port 69..."
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="failed"
+    operation="Connecting"
+    description="with proxy [stanton_gHEX]"
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="failed"
+    operation="Connecting"
+    description="with proxy [Taranis_2]"
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="failed"
+    operation="Connecting"
+    description="with proxy [pyroRuin]"
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="failed"
+    operation="Connecting"
+    description="with proxy [dMar_Levski_011]"
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="ok"
+    operation="Connecting"
+    description="with proxy [dMar_Levski_017]"
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="ok"
+    operation="Downolading"
+    description="feed data..."
+    hidden='hidden'
+  />
+  <TerminalLine
+    status="ok"
+    operation="Starting"
+    description="X server..."
+    hidden='hidden'
+  />
+  <p class="system-status">System Ready</p>
+</div>
+
+<style>
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #AA3030;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .system-status {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+</style>

@@ -36,4 +36,4 @@ All commands are run from the root of the project, from a terminal:
 If you are interested in joining our organization, please visit our [Discord](https://discord.gg/9q2J6a3) and [Star Citizen](https://robertsspaceindustries.com/orgs/UNHOLYCREW) page.
 
 ### See you in the verse!
-![pinup_fin_small.png](public/pinup_fin_small.png)
+![pinup_fin_small.png](src/images/pinup_fin_small.png)
